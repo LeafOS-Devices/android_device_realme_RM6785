@@ -12,6 +12,12 @@
 #define VIBRATOR_DURATION "/sys/class/leds/vibrator/duration"
 #define VIBRATOR_ACTIVATE "/sys/class/leds/vibrator/activate"
 #define VIBRATOR_INTENSITY "/sys/kernel/thunderquake_engine/level"
+#define INTENSITY_MIN 0
+#define INTENSITY_MAX 9
+
+#define INTENSITY_LIGHT 0.23
+#define INTENSITY_MEDIUM 0.56
+#define INTENSITY_STRONG 1
 
 using ::aidl::android::hardware::vibrator::IVibratorCallback;
 using ::aidl::android::hardware::vibrator::Braking;
